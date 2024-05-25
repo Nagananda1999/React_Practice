@@ -1,0 +1,81 @@
+
+
+.home{
+
+    background-color: #c7c7c9;
+    width: 100vw;
+    position: absolute;
+    left:0;
+    top:58vh;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.Register, .Login{
+    box-sizing: border-box;
+    background-color: #e4e4e4;
+    border:2px solid;
+    width: 100vw;
+    position: absolute;
+    left:0;
+    top:8vh;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.RegisterForm , .LoginForm {
+    /* border:2px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    width: 400px;
+    height: 380px;
+    min-width: 350px;
+}
+
+.RegisterForm>input , .LoginForm>input{
+    background-color: #E5E8ED;
+    width: 90%;
+    height: 35px;
+    border-radius:5px ;
+    border: none;
+}
+
+.RegisterForm > input::placeholder,.LoginForm>input::placeholder {
+    color: #6e6e6e;
+    text-align: left;
+    
+}
+.RegisterForm > input:focus,  .LoginForm> input:focus{
+    scale: 1.1;
+}
+.Submit{    
+    width: 90%;
+    height: 35px;
+    margin-top: 30px;
+    height: 50px;
+    color: #e4e4e4;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #6A62D2;
+    border-radius:5px ;
+    border: none;
+}
+/* @media screen and (max-width:600px) {
+    .RegisterForm{
+        
+    }
+    .RegisterForm>*{
+        width: 80%;
+    }
+} */
+
+/* #username{
+     width: 60%; 
+} */

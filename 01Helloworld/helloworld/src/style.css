@@ -1,0 +1,13 @@
+body{
+    background-color: #5737D6;
+}
+h1{
+    color: #642d02;
+}
+button{
+    /* border: none; */
+    color: aliceblue;
+    background-color: #E07C24;
+    padding: 15px 40px;
+    margin: 100px;
+}
